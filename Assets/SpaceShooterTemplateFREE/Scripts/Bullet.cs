@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class ShowLog : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
+    public float flySpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello World!");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update called! " + Time.frameCount);
+        var newPosition = transform.position;
+        newPosition.y += Time.deltaTime * flySpeed;
+        transform.position = newPosition;
     }
 }

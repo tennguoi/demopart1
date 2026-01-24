@@ -1,16 +1,17 @@
 using UnityEngine;
 
-public class ShowLog : MonoBehaviour
+public class Blinking : MonoBehaviour
 {
+    private SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello World!");
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update called! " + Time.frameCount);
+        spriteRenderer.enabled = !spriteRenderer.enabled;
     }
 }
