@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SpaceShooterTemplateFREE/Scenes/New1.unity
+    guid: 38982acb95e11874c95f4d02ba384ae7
+  - enabled: 1
+    path: Assets/SpaceShooterTemplateFREE/Scenes/New.unity
+    guid: c491d2bce2dac3242b56f6d5ebe18c0f
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
