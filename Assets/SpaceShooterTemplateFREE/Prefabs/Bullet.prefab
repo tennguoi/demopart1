@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1417640942866693173}
   m_Layer: 7
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   flySpeed: 10
+  damage: 0
 --- !u!61 &-5095291542262152081
 BoxCollider2D:
   m_ObjectHideFlags: 0
