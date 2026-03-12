@@ -11,11 +11,16 @@ public class Health : MonoBehaviour
     }
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
-    private int healthPoint;
+    public int healthPoint;
     public System.Action onDead;
+    public System.Action onHealthChanged;
 
     public void OnTriggerEnter2D(Collider2D collision) => Die();
-    private void Start() => healthPoint = defaultHealthPoint;
+    private void Start() {
+        healthPoint = defaultHealthPoint;
+        onHealthChanged?.Invoke();
+
+    }
    
 
 
@@ -29,6 +34,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (healthPoint <= 0) return;
+        onHealthChanged?.Invoke();
 
         healthPoint -= damage;
         if (healthPoint <= 0) Die();
