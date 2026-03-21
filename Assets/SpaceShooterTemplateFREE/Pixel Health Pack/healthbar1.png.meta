@@ -133,8 +133,8 @@ TextureImporter:
         width: 90
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 12, z: 7, w: 14}
       customData: 
       outline: []
       physicsShape: []
@@ -155,8 +155,8 @@ TextureImporter:
         width: 90
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 12, z: 7, w: 14}
       customData: 
       outline: []
       physicsShape: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: healthbar1_2
       rect:
         serializedVersion: 2
-        x: 19
+        x: 20
         y: 183
-        width: 90
+        width: 87
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,7 +199,7 @@ TextureImporter:
         width: 82
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,7 +221,7 @@ TextureImporter:
         width: 82
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,11 +234,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: healthbar1_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 250
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3312163abe889ef4ca8fd8b0df7ba6de
+      internalID: -1528837859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 086ba3b35bbab814995f4298cf157330
     internalID: 0
     vertices: []
     indices: 
@@ -253,6 +275,7 @@ TextureImporter:
       healthbar1_2: 8251983839672514473
       healthbar1_3: 4378439412005556322
       healthbar1_4: 6886097181865670148
+      healthbar1_5: -1528837859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
